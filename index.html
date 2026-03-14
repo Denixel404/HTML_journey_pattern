@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- Мета -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Продажа дешёвых билетов за границу. Счастье уже за дверью!">
+    <meta name="keywords" content="туры в Великобританию, путешествия, билеты в Великобританию, Великобритания">
+    <title>Туры в Великобританию</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<!-- Наполнение сайта -->
+<body>
+    <!-- Шапка -->
+    <header>
+        <h1>
+            Путешествие в Великобританию уже <br><b><span id="today">сегодня!</span></b>
+        </h1>
+        <button class="btn btn-warning" onclick="action()">Купить билеты</button>
+    </header>
+    <!-- Ключевая информация -->
+    <main>
+        <!-- Вступительные сведения -->
+        <section> 
+            <div class="about">
+                <img src="img/pic1.png" alt="Биг бен" class="image1">
+                <div>
+                    <h2>О нас</h2>
+                    <p>
+                        Мы понимаем как важно вам узнавать что-то новое о мире
+                        и открывать для себя новые возможности. Именно поэтому
+                        наша компания делает всё возможное чтобы предоставить
+                        вам море возможностей и положительных эмоций.
+                    </p>
+                    <p>
+                        Мы специализируемся на путёвках в Великобританию с 
+                        2013 года и до сих пор активно трудимся над качеством
+                        наших услуг. У нас сотни довольных клиентов по всей 
+                        стране их число продолжает расти. Доверьтесь же и вы, 
+                        купив билет у нас, а наши специалисты сделают всё 
+                        остальное за вас. Не упустите свой шанс сделать 
+                        свою жизнь ярче и счастливее!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Блок преимуществ -->
+        <section>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e01b1b" fill-opacity="1" d="M0,96L34.3,112C68.6,128,137,160,206,192C274.3,224,343,256,411,245.3C480,235,549,181,617,170.7C685.7,160,754,192,823,192C891.4,192,960,160,1029,160C1097.1,160,1166,192,1234,197.3C1302.9,203,1371,181,1406,170.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+            <div class="advantanges">
+                <h2 id="h2-advantanges">Почему это выгодно?</h2>
+                <div class="description-about-Britain">
+                    <p>Мы организуем поездки в Великобританию уже более 10 лет и
+                    точно знаем, что счастье живёт даже в самых маленьких 
+                    уголках Лондона. Выбирая нас вы не только узнаете больше 
+                    об истории этой страны, но и опробуете местные национальные 
+                    блюда в шикарных английских ресторанах, а также посетите 
+                    многие популярные достопримечательности. 
+                    </p>
+                    <img src="img/pic2.jpeg" alt="Местный пейзаж" id="photo">
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e01b1b" fill-opacity="1" d="M0,96L34.3,112C68.6,128,137,160,206,192C274.3,224,343,256,411,245.3C480,235,549,181,617,170.7C685.7,160,754,192,823,192C891.4,192,960,160,1029,160C1097.1,160,1166,192,1234,197.3C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        </section>
+        <!-- Плитки с плюсами выбора-->
+        <section>
+            <div class="block-row">
+                <article>
+                    <div class="brick animated-el">
+                        <img src="img/ticket.png" alt="Билеты" class="icon">
+                        <h3>Дешёвые билеты</h3>
+                        <p>
+                            Оформляя путёвку у нас, вам больше не нужно беспокоиться 
+                            за билеты. Мы сами подберём и составим вам идеальный маршрут, 
+                            который запомниться надолго.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="brick animated-el">
+                        <img src="img/juice.png" alt="Сок" class="icon">
+                        <h3>Комфорт и удобство</h3>
+                        <p>
+                            Мы сделаем абсолютно всё, чтобы в дороге вам было
+                            максимально комфортно и уютно: от интересных рассказов 
+                            до мягких кресел в автобусе. 
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Отзывы в виде слайдера -->
+        <section>
+            <div class="slider">
+                <button class="back" onclick="toSlide(-1)"><</button>
+                <div class="slides">
+                    <h2 class="center-title">Что о нас говорят другие</h2>
+                    <img src="img/comment1.png" alt="1 отзыв" class="comment active">
+                    <img src="img/comment2.png" alt="2 отзыв" class="comment">
+                    <img src="img/comment3.png" alt="3 отзыв" class="comment">
+                    <img src="img/comment4.png" alt="4 отзыв" class="comment">
+                    <div class="indicators">
+                        <span class="indicator active" onclick="currentSlide(0)"></span>
+                        <span class="indicator" onclick="currentSlide(1)"></span>
+                        <span class="indicator" onclick="currentSlide(2)"></span>
+                        <span class="indicator" onclick="currentSlide(3)"></span>
+                    </div>
+                </div>
+                <button class="forward" onclick="toSlide(1)">></button>
+            </div>
+        </section>
+    </main>
+    <hr>
+    <!-- Заключительная часть -->
+    <section>
+        <div class="block-column">
+            <img src="img/letter.png" alt="Письмо">
+            <h2>Свяжитесь с нами!</h2>
+            <button class="write" onclick="action()">Написать</button>
+        </div>
+    </section>
+</body>
+<!-- Подвал с юридической информацией -->
+<footer>
+    <p class="little-text">
+    Данный сайт является лишь образцом и учебным
+    проектом. Он не имеет ничего общего с реальностью. 
+    Все персонажи вымышлены, а совпадения случайны. 
+    Товары и услуги не предоставляются.
+    </p>
+    <p class="little-text">Дополнительные материалы взяты с <a href="https://www.flaticon.com/ru">Flaticons</a>.</p>
+    <p class="little-text">2026</p>
+</footer>
+
+<script src="js/main.js"></script>
+</html>
